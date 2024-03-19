@@ -6,6 +6,8 @@ import React from "react";
 import Event_Handler_Class from "./components/Event_Handler_Class/index";
 import CountWithOutHook from "./components/HOOK_USESTATE/CountWithOutHook";
 import CountWithHook from "./components/HOOK_USESTATE/CountWithHook";
+import CounterApp from "./components/Assigment_2_Counter_App/CounterApp";
+import Clock from "./components/Clock/Clock";
 function App() {
   return (
     <>
@@ -23,8 +25,9 @@ function App() {
 
       {/* <Conditional_Rendering></Conditional_Rendering> */}
       {/* <Event_Handler_Class /> */}
-      <CountWithOutHook></CountWithOutHook>
-      <CountWithHook></CountWithHook>
+      {/* <CountWithOutHook></CountWithOutHook>
+      <CountWithHook></CountWithHook> */}
+      <Clock local="bn-BD"></Clock>
     </>
   );
 }
