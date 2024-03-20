@@ -8,6 +8,8 @@ import CountWithOutHook from "./components/HOOK_USESTATE/CountWithOutHook";
 import CountWithHook from "./components/HOOK_USESTATE/CountWithHook";
 import CounterApp from "./components/Assigment_2_Counter_App/CounterApp";
 import Clock from "./components/Clock/Clock";
+import ClockTwo from "./components/Clock_2/ClockTwo";
+
 function App() {
   return (
     <>
@@ -27,7 +29,8 @@ function App() {
       {/* <Event_Handler_Class /> */}
       {/* <CountWithOutHook></CountWithOutHook>
       <CountWithHook></CountWithHook> */}
-      <Clock local="bn-BD"></Clock>
+      {/* <Clock local="bn-BD"></Clock> */}
+      <ClockTwo></ClockTwo>
     </>
   );
 }
