@@ -10,6 +10,7 @@ import CounterApp from "./components/Assigment_2_Counter_App/CounterApp";
 import Clock from "./components/Clock/Clock";
 import ClockTwo from "./components/Clock_2/ClockTwo";
 import ClockList from "./components/Clock_2/ClockList";
+import Form from "./components/Form/Form";
 
 function App() {
   const ary = [1, 2, 3];
@@ -26,14 +27,14 @@ function App() {
         </Card.Body>
       </Card>
       <Count /> */}
-
       {/* <Conditional_Rendering></Conditional_Rendering> */}
       {/* <Event_Handler_Class /> */}
       {/* <CountWithOutHook></CountWithOutHook>
       <CountWithHook></CountWithHook> */}
       {/* <Clock local="bn-BD"></Clock> */}
       {/* <ClockTwo></ClockTwo> */}
-      <ClockList ary={ary}></ClockList>
+      {/* <ClockList ary={ary}></ClockList> */}
+      <Form></Form>
     </>
   );
 }
