@@ -9,8 +9,10 @@ import CountWithHook from "./components/HOOK_USESTATE/CountWithHook";
 import CounterApp from "./components/Assigment_2_Counter_App/CounterApp";
 import Clock from "./components/Clock/Clock";
 import ClockTwo from "./components/Clock_2/ClockTwo";
+import ClockList from "./components/Clock_2/ClockList";
 
 function App() {
+  const ary = [1, 2, 3];
   return (
     <>
       {/* <Card style={{ width: "20rem", margin: "20px" }}>
@@ -30,7 +32,8 @@ function App() {
       {/* <CountWithOutHook></CountWithOutHook>
       <CountWithHook></CountWithHook> */}
       {/* <Clock local="bn-BD"></Clock> */}
-      <ClockTwo></ClockTwo>
+      {/* <ClockTwo></ClockTwo> */}
+      <ClockList ary={ary}></ClockList>
     </>
   );
 }
