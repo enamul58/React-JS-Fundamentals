@@ -12,6 +12,7 @@ import ClockTwo from "./components/Clock_2/ClockTwo";
 import ClockList from "./components/Clock_2/ClockList";
 import Form from "./components/Form/Form";
 import Calculator from "./components/TemperatureCalculator/Calculator";
+import TempCoveter from "./components/TemperatureCalculator_02/Calculator";
 
 function App() {
   // const ary = [1, 2, 3];
@@ -36,7 +37,8 @@ function App() {
       {/* <ClockTwo></ClockTwo> */}
       {/* <ClockList ary={ary}></ClockList> */}
       {/* <Form></Form> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      <TempCoveter />
     </>
   );
 }
