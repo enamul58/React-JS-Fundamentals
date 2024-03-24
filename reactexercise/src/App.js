@@ -11,9 +11,10 @@ import Clock from "./components/Clock/Clock";
 import ClockTwo from "./components/Clock_2/ClockTwo";
 import ClockList from "./components/Clock_2/ClockList";
 import Form from "./components/Form/Form";
+import Calculator from "./components/TemperatureCalculator/Calculator";
 
 function App() {
-  const ary = [1, 2, 3];
+  // const ary = [1, 2, 3];
   return (
     <>
       {/* <Card style={{ width: "20rem", margin: "20px" }}>
@@ -34,7 +35,8 @@ function App() {
       {/* <Clock local="bn-BD"></Clock> */}
       {/* <ClockTwo></ClockTwo> */}
       {/* <ClockList ary={ary}></ClockList> */}
-      <Form></Form>
+      {/* <Form></Form> */}
+      <Calculator />
     </>
   );
 }
