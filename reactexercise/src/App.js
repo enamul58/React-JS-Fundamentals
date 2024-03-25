@@ -13,6 +13,9 @@ import ClockList from "./components/Clock_2/ClockList";
 import Form from "./components/Form/Form";
 import Calculator from "./components/TemperatureCalculator/Calculator";
 import TempCoveter from "./components/TemperatureCalculator_02/Calculator";
+import Emoji from "./components/Composition/Emoji";
+import { Text } from "./components/Composition/Text";
+import Bracket from "./components/Composition/Bracket";
 
 function App() {
   // const ary = [1, 2, 3];
@@ -38,7 +41,16 @@ function App() {
       {/* <ClockList ary={ary}></ClockList> */}
       {/* <Form></Form> */}
       {/* <Calculator /> */}
-      <TempCoveter />
+      {/* <TempCoveter /> */}
+      <Emoji>
+        {({ addEmoji }) => (
+          <Bracket>
+            {({ addBracket }) => (
+              <Text addEmoji={addEmoji} addBracket={addBracket} />
+            )}
+          </Bracket>
+        )}
+      </Emoji>
     </>
   );
 }
