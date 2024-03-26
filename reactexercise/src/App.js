@@ -16,6 +16,9 @@ import TempCoveter from "./components/TemperatureCalculator_02/Calculator";
 import Emoji from "./components/Composition/Emoji";
 import { Text } from "./components/Composition/Text";
 import Bracket from "./components/Composition/Bracket";
+// import ClickCounter from "./components/ClickCount/ClickCounter";
+import ClickCounter from "./components/HigherOrderComponent/ClickCounter";
+import HoverCounter from "./components/HigherOrderComponent/HoverCounter";
 
 function App() {
   // const ary = [1, 2, 3];
@@ -42,7 +45,7 @@ function App() {
       {/* <Form></Form> */}
       {/* <Calculator /> */}
       {/* <TempCoveter /> */}
-      <Emoji>
+      {/* <Emoji>
         {({ addEmoji }) => (
           <Bracket>
             {({ addBracket }) => (
@@ -50,7 +53,9 @@ function App() {
             )}
           </Bracket>
         )}
-      </Emoji>
+      </Emoji> */}
+      <ClickCounter />
+      <HoverCounter />
     </>
   );
 }
