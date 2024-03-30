@@ -17,9 +17,14 @@ import Emoji from "./components/Composition/Emoji";
 import { Text } from "./components/Composition/Text";
 import Bracket from "./components/Composition/Bracket";
 // import ClickCounter from "./components/ClickCount/ClickCounter";
-import ClickCounter from "./components/HigherOrderComponent/ClickCounter";
-import HoverCounter from "./components/HigherOrderComponent/HoverCounter";
-
+//import ClickCounter from "./components/HigherOrderComponent/ClickCounter";
+//import HoverCounter from "./components/HigherOrderComponent/HoverCounter";
+import ClickCount from "./components/Render_Props/ClickCounter";
+import HoverCount from "./components/Render_Props/HoverCounter";
+import Counter from "./components/Render_Props/Counter";
+import Section from "./components/Context_ApI/Section";
+import User from "./components/Props/User";
+import Main from "./components/Context_ApI/Main";
 function App() {
   // const ary = [1, 2, 3];
   return (
@@ -54,8 +59,15 @@ function App() {
           </Bracket>
         )}
       </Emoji> */}
-      <ClickCounter />
-      <HoverCounter />
+      {/* <Counter>{}</Counter> */}
+      {/* <User name={() => "Bangladesh"}></User> */}
+      {/* <Counter>
+        {(counter, onIncrement) => (
+          <ClickCount count={counter} onIncrement={onIncrement} />
+        )}
+      </Counter>
+      <Section></Section> */}
+      <Main></Main>
     </>
   );
 }
