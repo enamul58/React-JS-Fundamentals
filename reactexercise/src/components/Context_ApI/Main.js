@@ -8,6 +8,21 @@ export default class Main extends React.Component {
   state = {
     theme: "dark",
   };
+
+  switchTheme = () => {
+    this.setState(({ theme }) => {
+      if (theme === "dark") {
+        return {
+          theme: "yellow",
+        };
+      } else {
+        return {
+          theme: "dark",
+        };
+      }
+    });
+  };
+
   render() {
     const { theme } = this.state;
     return (
@@ -17,7 +32,7 @@ export default class Main extends React.Component {
             <ClickCount count={counter} onIncrement={increment} />
           )}
         </Counter>
-        <ThemeContext.Provider value={{ theme: theme }}>
+        <ThemeContext.Provider value={{ theme, switchTheme: this.switchTheme }}>
           <Section></Section>
         </ThemeContext.Provider>
       </>

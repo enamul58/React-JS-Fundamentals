@@ -1,11 +1,13 @@
 class Context {
   constructor(value) {
     this.value = value;
+    console.log("cons " + value);
   }
 
   //provider
   Provider = ({ children, value }) => {
     this.value = value;
+    console.log("prov" + value);
     return children;
   };
 

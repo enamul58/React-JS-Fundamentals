@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // import Button from "react-bootstrap/Button";
 // import Card from "react-bootstrap/Card";
 // import Count from "./components/countapp/Count";
@@ -25,8 +25,12 @@ import Counter from "./components/Render_Props/Counter";
 import Section from "./components/Context_ApI/Section";
 import User from "./components/Props/User";
 import Main from "./components/Context_ApI/Main";
+import Todo from "./components/Todo/TodoApp";
+import MyComponent from "./components/UseEffect/UseEffect";
+
 function App() {
   // const ary = [1, 2, 3];
+  const [show, setShow] = useState(true);
   return (
     <>
       {/* <Card style={{ width: "20rem", margin: "20px" }}>
@@ -67,7 +71,12 @@ function App() {
         )}
       </Counter>
       <Section></Section> */}
-      <Main></Main>
+      {/* <Main></Main>
+      <Todo /> */}
+      {show && <MyComponent />}
+      <button type="button" onClick={() => setShow((prevShow) => !prevShow)}>
+        {show ? "Hide Post" : "Show Post"}
+      </button>
     </>
   );
 }
