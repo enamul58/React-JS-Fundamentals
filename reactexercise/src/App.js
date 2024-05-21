@@ -27,6 +27,7 @@ import User from "./components/Props/User";
 import Main from "./components/Context_ApI/Main";
 import Todo from "./components/Todo/TodoApp";
 import MyComponent from "./components/UseEffect/UseEffect";
+import UseRef from "./components/UseRef/UseRef";
 
 function App() {
   // const ary = [1, 2, 3];
@@ -73,10 +74,11 @@ function App() {
       <Section></Section> */}
       {/* <Main></Main>
       <Todo /> */}
-      {show && <MyComponent />}
+      {/* {show && <MyComponent />}
       <button type="button" onClick={() => setShow((prevShow) => !prevShow)}>
         {show ? "Hide Post" : "Show Post"}
-      </button>
+      </button> */}
+      <UseRef />
     </>
   );
 }
