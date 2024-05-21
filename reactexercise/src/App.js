@@ -29,6 +29,7 @@ import Todo from "./components/Todo/TodoApp";
 import MyComponent from "./components/UseEffect/UseEffect";
 import UseRef from "./components/UseRef/UseRef";
 import Counter2 from "./components/UseReducer/UseReducer";
+import Counter3 from "./components/UseReducer/ComplexCounter";
 
 function App() {
   // const ary = [1, 2, 3];
@@ -80,7 +81,8 @@ function App() {
         {show ? "Hide Post" : "Show Post"}
       </button> */}
       {/* <UseRef /> */}
-      <Counter2 />
+      {/* <Counter2 /> */}
+      <Counter3 />
     </>
   );
 }
