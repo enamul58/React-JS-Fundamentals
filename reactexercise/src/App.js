@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 // import Button from "react-bootstrap/Button";
 // import Card from "react-bootstrap/Card";
 // import Count from "./components/countapp/Count";
@@ -30,6 +30,7 @@ import MyComponent from "./components/UseEffect/UseEffect";
 import UseRef from "./components/UseRef/UseRef";
 import Counter2 from "./components/UseReducer/UseReducer";
 import Counter3 from "./components/UseReducer/ComplexCounter";
+import UseTodo from "./components/UseState/useTodo";
 
 function App() {
   // const ary = [1, 2, 3];
@@ -82,7 +83,8 @@ function App() {
       </button> */}
       {/* <UseRef /> */}
       {/* <Counter2 /> */}
-      <Counter3 />
+      {/* <Counter3 /> */}
+      <UseTodo></UseTodo>
     </>
   );
 }
