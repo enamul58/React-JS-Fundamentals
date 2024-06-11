@@ -3,34 +3,39 @@
 // import Card from "react-bootstrap/Card";
 // import Count from "./components/countapp/Count";
 // import Conditional_Rendering from "./components/Conditional_Rendering/index";
-import Event_Handler_Class from "./components/Event_Handler_Class/index";
-import CountWithOutHook from "./components/HOOK_USESTATE/CountWithOutHook";
-import CountWithHook from "./components/HOOK_USESTATE/CountWithHook";
-import CounterApp from "./components/Assigment_2_Counter_App/CounterApp";
-import Clock from "./components/Clock/Clock";
-import ClockTwo from "./components/Clock_2/ClockTwo";
-import ClockList from "./components/Clock_2/ClockList";
-import Form from "./components/Form/Form";
-import Calculator from "./components/TemperatureCalculator/Calculator";
-import TempCoveter from "./components/TemperatureCalculator_02/Calculator";
-import Emoji from "./components/Composition/Emoji";
-import { Text } from "./components/Composition/Text";
-import Bracket from "./components/Composition/Bracket";
+// import Event_Handler_Class from "./components/Event_Handler_Class/index";
+// import CountWithOutHook from "./components/HOOK_USESTATE/CountWithOutHook";
+// import CountWithHook from "./components/HOOK_USESTATE/CountWithHook";
+// import CounterApp from "./components/Assigment_2_Counter_App/CounterApp";
+// import Clock from "./components/Clock/Clock";
+// import ClockTwo from "./components/Clock_2/ClockTwo";
+// import ClockList from "./components/Clock_2/ClockList";
+// import Form from "./components/Form/Form";
+// import Calculator from "./components/TemperatureCalculator/Calculator";
+// import TempCoveter from "./components/TemperatureCalculator_02/Calculator";
+// import Emoji from "./components/Composition/Emoji";
+// import { Text } from "./components/Composition/Text";
+// import Bracket from "./components/Composition/Bracket";
 // import ClickCounter from "./components/ClickCount/ClickCounter";
 //import ClickCounter from "./components/HigherOrderComponent/ClickCounter";
 //import HoverCounter from "./components/HigherOrderComponent/HoverCounter";
-import ClickCount from "./components/Render_Props/ClickCounter";
-import HoverCount from "./components/Render_Props/HoverCounter";
-import Counter from "./components/Render_Props/Counter";
-import Section from "./components/Context_ApI/Section";
-import User from "./components/Props/User";
-import Main from "./components/Context_ApI/Main";
-import Todo from "./components/Todo/TodoApp";
-import MyComponent from "./components/UseEffect/UseEffect";
-import UseRef from "./components/UseRef/UseRef";
-import Counter2 from "./components/UseReducer/UseReducer";
-import Counter3 from "./components/UseReducer/ComplexCounter";
-import UseTodo from "./components/UseState/useTodo";
+// import ClickCount from "./components/Render_Props/ClickCounter";
+// import HoverCount from "./components/Render_Props/HoverCounter";
+// import Counter from "./components/Render_Props/Counter";
+// import Section from "./components/Context_ApI/Section";
+// import User from "./components/Props/User";
+// import Main from "./components/Context_ApI/Main";
+// import Todo from "./components/Todo/TodoApp";
+// import MyComponent from "./components/UseEffect/UseEffect";
+// import UseRef from "./components/UseRef/UseRef";
+// import Counter2 from "./components/UseReducer/UseReducer";
+// import Counter3 from "./components/UseReducer/ComplexCounter";
+// import UseTodo from "./components/UseState/useTodo";
+// import CoustomApp from "./components/useCallback/CoustomApp";
+
+// import { BrowserRouter } from "react-router-dom";
+// import CoustomRut from "./components/Router/CoustomRut";
+import BGColor from "./components/BackgroundColorChange/BGColor";
 
 function App() {
   // const ary = [1, 2, 3];
@@ -84,7 +89,12 @@ function App() {
       {/* <UseRef /> */}
       {/* <Counter2 /> */}
       {/* <Counter3 /> */}
-      <UseTodo></UseTodo>
+      {/* <UseTodo></UseTodo> */}
+      {/* <CoustomApp></CoustomApp> */}
+      {/* <BrowserRouter>
+        <CoustomRut />
+      </BrowserRouter> */}
+      <BGColor />
     </>
   );
 }
