@@ -36,8 +36,9 @@
 // import { BrowserRouter } from "react-router-dom";
 // import CoustomRut from "./components/Router/CoustomRut";
 // import BGColor from "./components/BackgroundColorChange/BGColor";
-import FormTwo from "./components/Form/FormTwo";
-import IncrementDecrementApp from "./components/Increment_Decrement/IncrementDecrementApp";
+//import FormTwo from "./components/Form/FormTwo";
+//import IncrementDecrementApp from "./components/Increment_Decrement/IncrementDecrementApp";
+import Counter from "./components/Counter/Counter.js";
 
 function App() {
   // const ary = [1, 2, 3];
@@ -98,7 +99,8 @@ function App() {
       </BrowserRouter> */}
       {/* <BGColor /> */}
       {/* <FormTwo /> */}
-      <IncrementDecrementApp />
+      {/* <IncrementDecrementApp /> */}
+      <Counter></Counter>
     </>
   );
 }
